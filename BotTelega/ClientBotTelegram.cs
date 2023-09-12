@@ -6,7 +6,7 @@ namespace BotTelega;
 public class ClientBotTelegram
 {
     private static HttpClient _httpClient = new();
-    private const string Token = "5807464884:AAFvH0gpGPZmGNmcUtp2fzL9-lfM0iV__5E"; // токен вашего бота
+    private const string Token = ""; // токен вашего бота
     private const string SendMessage = $"https://api.telegram.org/bot{Token}/sendMessage";
     private const string GetUpdates = $"https://api.telegram.org/bot{Token}/getUpdates?offset=";
     private long _offset = -1;
